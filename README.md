@@ -1,5 +1,5 @@
     # Write a function that uses regular expressions to make sure the complexity of the password is strong
-    # Strong password must be at least 8 characters long, contains both uppercase and lowercase characters, contains at least one digit, and contains special symbol
+    # Strong password must be at least 8 characters long, contains both uppercase and lowercase characters, contains at least one digit, and contains special character
     # Test the string against multiple regex patterns to validate its strength
     # Takes user input
 
