@@ -5,7 +5,10 @@
 #Test the string against multiple regex patterns to validate its strength
 #Takes user input
 
+
+
 #Import the re module, which contains the Regular Expression module. Regular expressions and specific strings can be checked by using the functions provided in this module.
+
 import re
 
 def passwordStrength():                          # Define function name
