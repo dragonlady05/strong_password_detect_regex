@@ -39,6 +39,6 @@
             strong_pass = False  # Set strong_pass to False if the password do not meet the condition
             break
         if strong_pass:  # Outside statement out of the while loop
-            print ('Must contain at least 8 characters, 1 lowercase, 1 uppercase, 1 number and 1 special character. Try again.' )  # If passwordText does not meet RegEx
+            print ('Must contain at least 8 characters, 1 lowercase, 1 uppercase, 1 number and 1 special character. Try again.' )  # If passwordText does not meet RegEx patterns
             passwordStrength ()
     passwordStrength ()
