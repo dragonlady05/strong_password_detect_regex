@@ -1,21 +1,8 @@
-# strong_password_detect_regex
-
-#Write a function that uses regular expressions to make sure the complexity of the password is strong
-#Strong password must be at least 8 characters long, contains both uppercase and lowercase characters, contains at least one digit, and contains special chacracter
-#Test the string against multiple regex patterns to validate its strength
-#Takes user input
-
-
-
-#Import the re module, which contains the Regular Expression module. Regular expressions and specific strings can be checked by using the functions provided in this module.
-
-import re
+import re           
 
 def passwordStrength():                          # Define function name
     passwordText = input ( 'Enter password: ' )  # Takes user input
-
-    # Validate Strong Password using RegEX
-    # re.compile is used to convert a regular expression into a regex object that can search many target strings for the same pattern.
+    
     charRegex = re.compile ( r'(\w{8,})' )  # Matches any word character and at least 8 characters
     lowerRegex = re.compile ( r'[a-z]+' )   # Matches the lowercase alphabet
     upperRegex = re.compile ( r'[A-Z]+' )   # Matches the uppercase alphabet
